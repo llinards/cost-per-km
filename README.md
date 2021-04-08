@@ -2,7 +2,7 @@
 
 Simple VueJS 3 / Bootstrap 5 project to calculate costs per km or trip for your vehicle.
 
-🌍 [Calculate your costs here](https://606eb2ee0a5f1088cf6be73b--trusting-galileo-9b022b.netlify.app/)
+🌍 [Calculate your costs here](https://trusting-galileo-9b022b.netlify.app/)
 
 ### Version history:
 
