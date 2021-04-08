@@ -27,8 +27,8 @@
 		<p class="text-center mb-0">
 			This trip will cost you <strong>~ {{ pricePerTrip }} EUR.</strong>
 		</p>
-		<div class="button-bar text-center">
-			<button v-show="!text" @click="$emit('toggle-ev')" class="btn btn-success">
+		<div v-show="!text" class="button-bar text-center mt-3">
+			<button @click="$emit('toggle-ev')" class="btn btn-success">
 				{{ text ? "" : "Compare with EV" }}
 			</button>
 		</div>
