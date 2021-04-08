@@ -1,5 +1,5 @@
 <template>
-	<div class="container mt-3 p-4 card">
+	<div class="container mt-3 p-3 card">
 		<label for="fuelConsumption" class="form-label text-center w-100"
 			>Average fuel consumption:<br /><strong>{{ fuelConsumption }} l/100 km</strong></label
 		>
@@ -24,7 +24,7 @@
 			step="1"
 			id="calculateYourTripCosts"
 		/>
-		<p class="text-center">
+		<p class="text-center mb-0">
 			This trip will cost you <strong>~ {{ pricePerTrip }} EUR.</strong>
 		</p>
 		<div class="button-bar text-center">
