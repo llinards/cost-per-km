@@ -1,11 +1,11 @@
 <template>
 	<div class="container mt-3 p-4 card">
 		<label for="fuelConsumption" class="form-label text-center w-100"
-			>Average fuel consumption : <strong>{{ fuelConsumption }} l/100 km.</strong></label
+			>Average fuel consumption:<br /><strong>{{ fuelConsumption }} l/100 km</strong></label
 		>
 		<input v-model="fuelConsumption" type="range" class="form-range" min="1" max="20" step="0.1" id="fuelConsumption" />
 		<label for="pricePerLiter" class="form-label text-center w-100"
-			>Price per liter: <strong>{{ pricePerLiter }} EUR.</strong></label
+			>Price per liter:<br /><strong>{{ pricePerLiter }} EUR</strong></label
 		>
 		<input v-model="pricePerLiter" type="range" class="form-range" min="0.01" max="3" step="0.01" id="pricePerLiter" />
 		<p class="text-center" v-show="costPerKm">

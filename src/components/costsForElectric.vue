@@ -4,7 +4,7 @@
 			<button @click="$emit('toggle-ev')" type="button" class="btn-close" aria-label="Close"></button>
 		</div>
 		<label for="energyConsumption" class="form-label text-center w-100"
-			>Average energy consumption : <strong>{{ energyConsumption }} Wh/km.</strong></label
+			>Average energy consumption:<br /><strong>{{ energyConsumption }} Wh/km</strong></label
 		>
 		<input
 			v-model="energyConsumption"
@@ -16,7 +16,8 @@
 			id="energyConsumption"
 		/>
 		<label for="pricePerWh" class="form-label text-center w-100"
-			>Price per kWh: <strong>{{ pricePerWh }} EUR.</strong></label
+			>Price per kWh:<br />
+			<strong>{{ pricePerWh }} EUR</strong></label
 		>
 		<input v-model="pricePerWh" type="range" class="form-range" min="0.01" max="1" step="0.0001" id="pricePerWh" />
 		<p class="text-center" v-show="costPerKm">
