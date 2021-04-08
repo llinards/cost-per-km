@@ -1,19 +1,11 @@
-# cost-per-km
+# Calculate price per km/trip for your vehicle. ⛽️💶🚗
 
-## Project setup
-```
-npm install
-```
+Simple VueJS 3 / Bootstrap 5 project to calculate costs per km or trip for your vehicle.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+🌍 [Calculate your costs here](https://606eb2ee0a5f1088cf6be73b--trusting-galileo-9b022b.netlify.app/)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Version history:
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+---
+
+- 1.0. - calculate costs per km or/and trip for your vehicle based on average consumption.
