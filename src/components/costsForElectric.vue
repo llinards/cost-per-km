@@ -1,5 +1,5 @@
 <template>
-	<div class="container mt-3 p-4 card">
+	<div class="container mt-3 p-3 card">
 		<div class="close-btn">
 			<button @click="$emit('toggle-ev')" type="button" class="btn-close" aria-label="Close"></button>
 		</div>

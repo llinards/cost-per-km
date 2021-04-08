@@ -48,12 +48,4 @@ a {
 body {
 	background-color: #bdc3c7;
 }
-.main-app {
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	flex-direction: column;
-	height: 100vh;
-	width: 100%;
-}
 </style>
