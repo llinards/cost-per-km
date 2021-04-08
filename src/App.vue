@@ -14,7 +14,7 @@
 			>Trip: <strong>{{ trip }} km.</strong> This trip will cost you
 			<strong>~ {{ pricePerTrip }} EUR. 💶</strong></label
 		>
-		<input v-model="trip" type="range" class="form-range" min="1" max="5000" step="1" id="calculateYourTripCosts" />
+		<input v-model="trip" type="range" class="form-range" min="1" max="2500" step="1" id="calculateYourTripCosts" />
 	</div>
 </template>
 
